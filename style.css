@@ -1,0 +1,24 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 460px;
+    flex-wrap: wrap;
+    padding-left: 400px;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+}
+
+
+.box:hover {
+    background-color: rgb(24, 135, 98);
+    transition: all 0.3s ease 0s;
+}
